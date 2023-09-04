@@ -1,0 +1,1 @@
+Just use the sklearn package to learn about the Decision tree.

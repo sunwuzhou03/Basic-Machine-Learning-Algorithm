@@ -1,0 +1,115 @@
+卷 Windows 的文件夹 PATH 列表
+卷序列号为 7A93-55F0
+C:.
+│  filestruct.txt
+│  README.md
+│  requirements.txt
+│  
+├─accuracy_curve
+│      0.001_accuracy_curve.png
+│      0.01_accuracy_curve.png
+│      0.05_accuracy_curve.png
+│      0.1_accuracy_curve.png
+│      
+├─data
+│  │  数据集类型转换.py
+│  │  
+│  └─MNIST
+│      └─raw
+│              mnist_test.csv
+│              mnist_train.csv
+│              t10k-images-idx3-ubyte
+│              t10k-images-idx3-ubyte.gz
+│              t10k-labels-idx1-ubyte
+│              t10k-labels-idx1-ubyte.gz
+│              train-images-idx3-ubyte
+│              train-images-idx3-ubyte.gz
+│              train-labels-idx1-ubyte
+│              train-labels-idx1-ubyte.gz
+│              
+├─loss_curve
+│      0.001_loss_curve.png
+│      0.01_loss_curve.png
+│      0.05_loss_curve.png
+│      0.1_loss_curve.png
+│      
+├─model_adjust
+│  │  决策树调整.py
+│  │  卷积神经网络调整.py
+│  │  支持向量机调整.py
+│  │  
+│  └─__pycache__
+│          卷积神经网络调整.cpython-39.pyc
+│          
+├─model_test
+│  │  决策树测试.py
+│  │  卷积神经网络对比测试.py
+│  │  卷积神经网络测试.py
+│  │  支持向量机测试.py
+│  │  
+│  ├─CNN
+│  │      0.001_AccCom.png
+│  │      0.001_Eva.txt
+│  │      0.01_AccCom.png
+│  │      0.01_Eva.txt
+│  │      0.05_AccCom.png
+│  │      0.05_Eva.txt
+│  │      0.1_AccCom.png
+│  │      0.1_Eva.txt
+│  │      
+│  ├─SVM
+│  │      svm.txt
+│  │      
+│  └─TREE
+│          tree.txt
+│          
+├─model_train
+│      决策树训练.py
+│      卷积神经网络训练.py
+│      支持向量机训练.py
+│      
+└─save_model
+    │  svc.pkl
+    │  tree.pkl
+    │  
+    └─CNN
+        ├─0.001
+        │      Adadelta_cnn.pth
+        │      Adagrad_cnn.pth
+        │      Adamax_cnn.pth
+        │      Adam_cnn.pth
+        │      ASGD_cnn.pth
+        │      RMSprop_cnn.pth
+        │      Rprop_cnn.pth
+        │      SGD_cnn.pth
+        │      
+        ├─0.01
+        │      Adadelta_cnn.pth
+        │      Adagrad_cnn.pth
+        │      Adamax_cnn.pth
+        │      Adam_cnn.pth
+        │      ASGD_cnn.pth
+        │      RMSprop_cnn.pth
+        │      Rprop_cnn.pth
+        │      SGD_cnn.pth
+        │      
+        ├─0.05
+        │      Adadelta_cnn.pth
+        │      Adagrad_cnn.pth
+        │      Adamax_cnn.pth
+        │      Adam_cnn.pth
+        │      ASGD_cnn.pth
+        │      RMSprop_cnn.pth
+        │      Rprop_cnn.pth
+        │      SGD_cnn.pth
+        │      
+        └─0.1
+                Adadelta_cnn.pth
+                Adagrad_cnn.pth
+                Adamax_cnn.pth
+                Adam_cnn.pth
+                ASGD_cnn.pth
+                RMSprop_cnn.pth
+                Rprop_cnn.pth
+                SGD_cnn.pth
+                
